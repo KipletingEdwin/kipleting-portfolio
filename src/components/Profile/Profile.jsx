@@ -12,7 +12,7 @@ function Profile() {
         <p className={styles.description} > I am junior Full stack developer proficient in React and Ruby on Rails </p>
         <a href="mailto:kipletingedwin4@gmail.com" className={styles.contactBtn} > Contact Me </a>
     </div>
-    <img src={edwin} alt='Hero' className={styles.heroImg} />
+    <img src={edwin} alt='Hero' className={styles.myPicture} />
     <div className={styles.topBlur}/> 
     <div className={styles.bottomBlur}/> 
   </section>
