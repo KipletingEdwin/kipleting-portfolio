@@ -13,6 +13,10 @@ function Skills() {
   return (
     <section id="skills" className={styles.skills}>
       <h2> My Skills </h2>
+      <div className={styles.container} > 
+      <div className={styles.description}>
+        <p> I excel in HTML, CSS, Vanilla JavaScript, React Js, Ruby, and Ruby on Rails, crafting dynamic and user-friendly web applications for an engaging online experience. </p>
+         </div>
       <div className={styles.stageCube}>
         <div className={styles.cubespiner}>
           <div className={styles.face1}>
@@ -39,6 +43,7 @@ function Skills() {
             <FontAwesomeIcon icon={faReact} color='#EC4D28' />
          </div>
         </div>
+      </div>
       </div>
     </section>
   );

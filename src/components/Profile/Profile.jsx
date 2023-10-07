@@ -14,7 +14,6 @@ function Profile() {
     </div>
     <img src={edwin} alt='Hero' className={styles.myPicture} />
     <div className={styles.topBlur}/> 
-    <div className={styles.bottomBlur}/> 
   </section>
   );
 }
