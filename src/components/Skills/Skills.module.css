@@ -1,7 +1,9 @@
 .skills{
-    /* background-color: yellow; */
-    /* display: flex; */
+    background-color: yellow;
     padding: 0;
+    height: 100%;
+    width: 100%;
+
 }
 
 .skills h2{
@@ -10,13 +12,15 @@
     font-size: 35px;
     color: var(--text-color);
     letter-spacing: 1.75px;
+    /* background-color: green; */
 }
 
 
 .stageCube{
     width: 50%;
-    /* height: 100%; */
+    position: absolute;
     /* background-color: red; */
+    height: 50%;
     /* height: 100%;
     width: 50%;
     padding-top: 18%;
@@ -36,43 +40,46 @@
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
 
-    div{
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        border: 1pc solid #ccc;
-        background: rgba(255, 255, 255, 0.4);
-        font-size: 100px;
-        display: flex;
-        justify-content: center; 
-        align-items: center; 
-        box-shadow: 0 0 20px 0px lightyellow;
-    }
-
-    .face1{
-        transform: translateZ(100px);
-    }
-
-    .face2{
-        transform: rotateY(90deg) translateZ(100px);
-    }
-
-    .face3{
-        transform: rotateY(90deg) rotateX(90deg)  translateZ(100px);
-    }
-
-    .face4{
-        transform: rotateY(180deg) rotateZ(90deg) translateY(100px);
-    }
-
-    .face5{
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-    }
-
-    .face6{
-        transform: rotateX(-90deg) translateZ(100px);
-    }
 }
+
+.cubespiner div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1pc solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 0 20px 0px lightyellow;
+}
+
+.face1{
+    transform: translateZ(100px);
+}
+
+.face2{
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.face3{
+    transform: rotateY(90deg) rotateX(90deg)  translateZ(100px);
+}
+
+.face4 {
+    transform: rotateY(180deg) translateZ(100px) translateY(0px);
+}
+
+
+.face5{
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+}
+
+.face6{
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
 
 @keyframes spincube {
     from,
