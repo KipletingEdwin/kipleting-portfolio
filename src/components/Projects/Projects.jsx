@@ -24,9 +24,10 @@ function Projects() {
           imgUrl: <img src={project3} alt='project-3'/>
         }
       ];
+      
 
   return (
-    <ProjectsContainer Projects={projects}/>
+    <ProjectsContainer />
 
   )
 }

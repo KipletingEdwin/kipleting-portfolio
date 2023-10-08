@@ -1,0 +1,13 @@
+.container{
+    background-color: yellow;
+    height: 300px;
+}
+
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.75px;
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+}
