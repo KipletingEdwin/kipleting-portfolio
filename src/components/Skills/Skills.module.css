@@ -3,7 +3,6 @@
     height: 800px;
     width: 100%;
 
-
 }
 
 .skills h2{
@@ -17,7 +16,6 @@
 
 .container{
     display: flex;
-    /* flex-direction: row; */
     height: 400px;
     width: 100%;
     margin: 10px;
@@ -126,20 +124,26 @@
     .container {
         display: flex;
         flex-direction: column;
-        /* height: 600px; */
-        margin: 0px;
+        height: 450px;
+        /* margin: 0px; */
+        /* background-color: orange; */
     }
 
     .description{
         width: 100%;
         padding: 5px;
         margin: 0px;
+        /* background-color: red; */
+    }
+    .description p{
+        padding: 5px;
+        font-size: 15px;
     }
 
     .stageCube{
         width: 100%;
-        margin-top: 60%;
-        background-color: aqua;
+        /* margin-top: 60%; */
+        /* background-color: aqua; */
     }
 
     
