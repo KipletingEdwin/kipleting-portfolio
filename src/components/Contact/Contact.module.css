@@ -1,2 +1,96 @@
-@import '../../vars.css'
+@import '../../vars.css';
+
+.container{
+    /* background-color: orange; */
+    margin:  129px 10% 0 10%;
+}
+
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.itemsContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    
+}
+
+.myImage{
+    width: 50%;
+    background-color: green;
+}
+
+.myImage p{
+    color: var(--text-color);
+    margin: 30px 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.myImage img{
+    background-color: yellow;
+    margin: 10%;
+    
+}
+
+.inputMessages{
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputMessages li {
+    list-style: none;
+    width: 100%;
+    /* margin: 10px 1%; */
+}
+
+.inputMessages input[type="text"],[type="email"]{
+    margin: 30px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    background: #115173;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 4px;
+    
+}
+
+.inputMessages textarea{
+   
+    margin: 20px;
+    border: 0;
+    background: #115173;
+    height: 150px;
+    /* min-height: 150px; */
+    font-size: 15px;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.flatButton{
+    background: 0 0;
+    letter-spacing: 3px;
+    color: #fff;
+    font: 11px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px 20px;
+}
 

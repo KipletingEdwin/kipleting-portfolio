@@ -1,6 +1,8 @@
 .skills{
     padding: 0;
-    width: 100%;
+    /* width: 100%; */
+    margin: 0 10% 5% 10%;
+    /* margin:  129px 10% 0 10%; */
 
 }
 
@@ -16,10 +18,10 @@
 .container{
     display: flex;
     height: 300px;
-    width: 100%;
+    /* width: 100%; */
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0px lightyellow;
+    /* box-shadow: 0 0 20px 0px lightyellow; */
     
 }
 
@@ -123,20 +125,21 @@
     .container {
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 550px;
         /* margin: 0px; */
         /* background-color: orange; */
     }
 
     .description{
         width: 100%;
-        padding: 5px;
+        /* padding: 5px; */
         margin: 0px;
-        /* background-color: red; */
+        background-color: red;
     }
     .description p{
         padding: 5px;
-        font-size: 15px;
+        margin: 3px;
+        /* font-size: 15px; */
     }
 
     .stageCube{
