@@ -16,13 +16,13 @@
 .itemsContainer{
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    /* background-color: yellow; */
     
 }
 
 .myImage{
     width: 50%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .myImage p{
@@ -41,7 +41,7 @@
 
 .inputMessages{
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,12 +50,13 @@
 
 .inputMessages li {
     list-style: none;
-    width: 100%;
+    /* width: 100%; */
     /* margin: 10px 1%; */
 }
 
 .inputMessages input[type="text"],[type="email"]{
-    margin: 30px;
+    margin: 20px;
+    width: 150%;
     height: 70px;
     font-size: 15px;
     border: 0;
@@ -73,7 +74,7 @@
     border: 0;
     background: #115173;
     height: 150px;
-    /* min-height: 150px; */
+    width: 150%;
     font-size: 15px;
     color: #fff;
     padding: 20px;
@@ -83,7 +84,7 @@
 }
 
 .flatButton{
-    background: 0 0;
+    background: #115173;
     letter-spacing: 3px;
     color: #fff;
     font: 11px;
@@ -92,5 +93,41 @@
     border: 1px solid black;
     border-radius: 4px;
     margin: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .itemsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myImage{
+        width: 100%;
+    }
+
+    .myImage img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .myImage p{
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        background-color: yellow;
+    }
+
+    .inputMessages{
+        width: 100%;
+    }
+
+    .inputMessages input [type="text"], [input="email"]{
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
 }
 

@@ -4,7 +4,7 @@ import aboutImage from '../../assets/aboutImage.png'
 
 function Contact() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='contacts'>
         <h2> Contact Me </h2>
         <div className={styles.itemsContainer}> 
             <div className={styles.myImage}>
