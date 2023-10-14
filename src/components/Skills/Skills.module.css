@@ -122,35 +122,44 @@
 }
 
 @media screen and (max-width: 830px) {
+    .skills{
+        background-color: olivedrab;
+        margin: 20px 10px;
+        height: auto;
+    }
+
+
     .container {
         display: flex;
         flex-direction: column;
-        height: 550px;
-        /* margin: 0px; */
-        /* background-color: orange; */
+        padding: 2px;
+        margin: 2px;
+        height: 500px;
     }
 
     .description{
         width: 100%;
-        padding: 5px;
-        margin: 0px;
-        /* background-color: red; */
+        margin: 0px 0px;
+        padding: 0px;
+        height: auto;
     }
 
     
     .description p{
-        padding: 5px;
-        margin: 3px;
-        /* background-color: red; */
+        padding: 0px;
+        margin: 0px;
         /* font-size: 15px; */
     }
 
     .stageCube{
-        width: 100%;
-        /* margin-top: 60%; */
-        /* background-color: aqua; */
+        margin: 0px 30px 20px 30px;
+        padding: 2px;
+        width: 90%;
+        background-color: red;
     }
 
-    
+    /* .cubespiner{
+        margin: 10% 20%;
+    } */
 
 }

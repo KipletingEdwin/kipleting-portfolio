@@ -1,5 +1,5 @@
 .container{
-    background-color: yellow;
+    /* background-color: yellow; */
     margin:  129px 10% 0 10%;
 }
 
@@ -10,4 +10,13 @@
     color: var(--text-color);
     font-size: 35px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 830px) {
+
+    .container{
+        background-color: orangered;
+        margin: 10% 10px ;
+    }
+
 }

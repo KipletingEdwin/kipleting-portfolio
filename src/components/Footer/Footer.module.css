@@ -1,5 +1,5 @@
 .myFooter{
-    background-color: orangered;
+    /* background-color: orangered; */
     width: 80%;
     margin: 10px 10% 5% 10%;
 }
@@ -8,10 +8,12 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    /* background-color: blue; */
 }
 
 .myFooter ul a{
-    padding: 10px;
+    /* padding: 10px; */
+    width: 20%;
     /* background-color: green; */
     justify-content: space-between;
    
@@ -20,5 +22,10 @@
 .myIcon{
     height: 25px;
     padding: 10px;
+    color: #fff;
     /* background-color: purple; */
 }
+
+/* @media screen and (max-width: 830px){
+
+} */

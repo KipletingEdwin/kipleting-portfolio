@@ -10,7 +10,6 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.myFooter}>
-      <h3> This is my footer </h3>
       <ul>
         <a
           href="https://github.com/KipletingEdwin"

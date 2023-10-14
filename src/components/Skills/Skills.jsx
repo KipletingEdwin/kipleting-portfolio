@@ -10,6 +10,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function Skills() {
+
+  
   return (
     <section id="skills" className={styles.skills}>
       <h2> My Skills </h2>
