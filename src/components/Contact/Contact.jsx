@@ -12,7 +12,7 @@ function Contact() {
                 <img src={aboutImage} alt='Reach Out!'/>
              </div>
         <div className={styles.inputMessages}> 
-        <form>
+        <form className={styles.myForm}>
             <ul>
                 <li>
                     <input type='text' name='name' placeholder='Name' required/>

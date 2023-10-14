@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .container{
-    /* background-color: orange; */
+    background-color: orange;
     margin:  129px 10% 0 10%;
 }
 
@@ -11,6 +11,9 @@
     font-size: 35px;
     font-weight: 700;
     color: var(--text-color);
+    /* background-color: yellow; */
+    margin: 30px;
+    padding: 30px;
 }
 
 .itemsContainer{
@@ -34,29 +37,35 @@
 }
 
 .myImage img{
-    background-color: yellow;
     margin: 10%;
+    width: 80%;
+    
     
 }
+
 
 .inputMessages{
     width: 50%;
     /* background-color: red; */
+    margin-top: 15%;
+   
+}
+
+.inputMessages li {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.inputMessages li {
-    list-style: none;
-    /* width: 100%; */
-    /* margin: 10px 1%; */
-}
 
 .inputMessages input[type="text"],[type="email"]{
-    margin: 20px;
-    width: 150%;
+    margin: 20px 50px;
+    width: 90%;
     height: 70px;
     font-size: 15px;
     border: 0;
@@ -70,11 +79,11 @@
 
 .inputMessages textarea{
    
-    margin: 20px;
+    margin: 5px;
+    width: 90%;
     border: 0;
     background: #115173;
-    height: 150px;
-    width: 150%;
+    height: 170px;
     font-size: 15px;
     color: #fff;
     padding: 20px;
@@ -116,18 +125,42 @@
         margin: 5px 0;
         text-align: center;
         width: 100%;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
     .inputMessages{
         width: 100%;
+        /* background-color: green; */
     }
 
-    .inputMessages input [type="text"], [input="email"]{
+    .inputMessages li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputMessages input[type="text"],[type="email"]{
         margin: 5px 0;
         padding: 10px;
+        width: 90%;
+        height: 50px;
+
+    }
+
+    .inputMessages textarea{
+        margin: 5px 0;
+        padding: 10px;
+        width: 90%;
+
+
+    }
+
+    .myForm{
+        /* background-color: yellow; */
         width: 100%;
     }
 
+   
 }
 

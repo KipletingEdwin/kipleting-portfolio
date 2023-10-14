@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact'
 import project1 from './assets/project/project1.png'
 import project2 from './assets/project/project2.png'
 import project3 from './assets/project/project3.png'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <Skills/>
       <Projects projects={projects}/>
       <Contact/>
+      <Footer/>
       
     </div>
   )
