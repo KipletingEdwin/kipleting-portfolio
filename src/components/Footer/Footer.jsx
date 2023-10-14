@@ -1,7 +1,7 @@
 // import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faGitAlt,
+  faGithub,
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -18,7 +18,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
     
-          <FontAwesomeIcon icon={faGitAlt} />
+          <FontAwesomeIcon icon={faGithub} className={styles.myIcon} />
         </a>
 
         <a
@@ -27,7 +27,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
         
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} className={styles.myIcon}  />
         </a>
 
         <a
@@ -36,7 +36,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
         
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faTwitter} className={styles.myIcon}  />
         </a>
       </ul>
     </footer>

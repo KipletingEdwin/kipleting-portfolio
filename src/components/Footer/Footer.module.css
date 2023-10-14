@@ -3,3 +3,22 @@
     width: 80%;
     margin: 10px 10% 5% 10%;
 }
+
+.myFooter ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.myFooter ul a{
+    padding: 10px;
+    /* background-color: green; */
+    justify-content: space-between;
+   
+}
+
+.myIcon{
+    height: 25px;
+    padding: 10px;
+    /* background-color: purple; */
+}
