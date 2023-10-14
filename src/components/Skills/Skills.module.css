@@ -17,10 +17,9 @@
 
 .container{
     display: flex;
-    height: 300px;
+    /* height: 300px; */
     /* width: 100%; */
     margin: 10px;
-    border-radius: 10px;
     /* box-shadow: 0 0 20px 0px lightyellow; */
     
 }
@@ -28,7 +27,7 @@
 .description {
     margin: 10% 0 10% 0;
     width: 60%;
-    height: 100px;
+    /* height: 100px; */
 }
 
 .description p{
@@ -123,25 +122,26 @@
 
 @media screen and (max-width: 830px) {
     .skills{
-        background-color: olivedrab;
+
         margin: 20px 10px;
         height: auto;
     }
-
 
     .container {
         display: flex;
         flex-direction: column;
         padding: 2px;
         margin: 2px;
-        height: 500px;
+        /* height: auto; */
+        /* height: 500px; */
     }
 
     .description{
         width: 100%;
         margin: 0px 0px;
-        padding: 0px;
+        padding: 15px;
         height: auto;
+        /* background-color: red; */
     }
 
     
@@ -152,14 +152,15 @@
     }
 
     .stageCube{
-        margin: 0px 30px 20px 30px;
+        margin: 10px 0px 0px 0px;
         padding: 2px;
-        width: 90%;
-        background-color: red;
+        width: 100%;
+        min-height: 300px;
+        /* position: relative; */
     }
 
-    /* .cubespiner{
-        margin: 10% 20%;
-    } */
+    .cubespiner{
+        margin: 40px 20%;
+    }
 
 }
