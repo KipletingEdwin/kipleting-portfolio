@@ -12,7 +12,7 @@ function About() {
             <li className={styles.aboutItem} > <img src={cursorIcon} alt='Cursor'/> 
             <div className={styles.aboutItemText} >
                 <h3> Frontend Developer </h3>
-                <p> I'm a junior frontend developer conversant with JavaScrpt and React  </p>
+                <p> I'm a junior Frontend Developer conversant with JavaScrpt and React  </p>
             </div>
             </li>
 

@@ -21,6 +21,10 @@
     display: flex;
 }
 
+.menu img{
+    display: none;
+}
+
 .menuItems{
     list-style: none;
     gap: 47px;
@@ -37,6 +41,10 @@
     .navbar{
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    .menu img{
+        display: flex;
     }
 
     .menu{
