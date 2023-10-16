@@ -1,6 +1,6 @@
 .container{
-    background-color: yellow;
-    /* margin:  129px 10% 0 10%; */
+    /* background-color: yellow; */
+    margin:  129px 10% 0 10%;
 }
 
 .container h2{
@@ -13,13 +13,26 @@
 }
 
 .myProjects{
-    background-color: purple;
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    color: var(--text-color);
+    margin: 20px;
+    gap: 30px;
     box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .myProjects h4{
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.myProjects p{
+    margin: 5px;
 }

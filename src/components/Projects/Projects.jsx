@@ -14,12 +14,9 @@ function Projects({projects}) {
           <h4> {project.title} </h4>
           <p> {project.description} </p>
           <img src={project.imgUrl} alt={project.title}/>
-
         </div>
       ))}
     </section>
-
-
   )
 }
 

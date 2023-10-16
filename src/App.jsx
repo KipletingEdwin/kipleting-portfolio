@@ -21,13 +21,13 @@ function App() {
       imgUrl: <img src={project1} alt='project-1'/>,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ACK St James Koromosho",
+      description: "This is a church website aimed at simplifying all the church evets and departments",
       imgUrl: <img src={project2} alt='project-2'/>,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Rails 2023 Inspiration",
+      description: "This is an inspirational website from the #2023RailsWorld event held in Amsterdam, Beurs van Berlage.",
       imgUrl: <img src={project3} alt='project-3'/>
     }
   ];
