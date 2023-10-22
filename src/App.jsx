@@ -18,17 +18,17 @@ function App() {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: <img src={project1} alt='project-1'/>,
+      imgUrl: project1,
     },
     {
       title: "ACK St James Koromosho",
-      description: "This is a church website aimed at simplifying all the church evets and departments",
-      imgUrl: <img src={project2} alt='project-2'/>,
+      description: "This is a church website",
+      imgUrl: project2 
     },
     {
       title: "Rails 2023 Inspiration",
-      description: "This is an inspirational website from the #2023RailsWorld event held in Amsterdam, Beurs van Berlage.",
-      imgUrl: <img src={project3} alt='project-3'/>
+      description: "Inspirational website from the #2023RailsWorld event held in Amsterdam, Beurs van Berlage.",
+      imgUrl: project3
     }
   ];
 

@@ -1,38 +1,112 @@
-.container{
-    /* background-color: yellow; */
-    margin:  129px 10% 0 10%;
-}
+
+.container {
+    /* flex-wrap: nowrap; */
+    margin:  129px 10% 10px 10%;
+    background-color: yellow;
+  }
 
 .container h2{
     text-transform: uppercase;
     text-align: center;
+    margin: 10px;
+    padding: 20px;
     letter-spacing: 1.75px;
     color: var(--text-color);
     font-size: 35px;
     font-weight: 700;
-}
+  }
 
-.myProjects{
+  .projectContainer{
     display: flex;
-    flex-direction: column;
-    background: #19376d;
-    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-    color: var(--text-color);
-    margin: 20px;
-    gap: 30px;
-    box-sizing: border-box;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+    background-color: green;
+  }
+  
+  .myProjects {
+    width: 40%;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
-}
-
-.myProjects h4{
-    text-transform: uppercase;
-    text-align: center;
-    justify-content: center;
-    text-decoration: underline;
     padding: 10px;
-}
-
-.myProjects p{
+    transition: background-color 0.3s;
+    cursor: pointer;
     margin: 5px;
-}
+    background-color: purple;
+  }
+
+  
+  .myProjects:hover {
+    background-color: #f0f0f0; 
+  }
+  
+
+  .projectImage {
+    opacity: 1; 
+    transition: opacity 0.3s;
+    width: 99%;
+  }
+
+  
+  .myProjects:hover .projectImage {
+    opacity: 0.2; 
+  }
+
+  .projectTitle{
+    opacity: 0;
+  }
+
+  .projectDescription{
+    opacity: 0;
+  }
+
+  .myProjects:hover .projectTitle{
+    /* background-color: green; */
+    opacity: 1;
+    margin: -45% 5% 10px 5%;
+    font-size: 30px;
+    transition: opacity 1.5s;
+  }
+
+  .myProjects:hover .projectDescription{
+    /* background-color: purple; */
+    margin: 0% 5%;
+    font-size: 20px;
+    transition: opacity 2s;
+  }
+  
+  /* .projectTitle,
+  .projectDescription {
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); 
+    text-align: center; 
+    opacity: 0; 
+    transition: opacity 0.3s;
+  }
+   */
+
+
+  .myProjects:hover .projectTitle,
+  .myProjects:hover .projectDescription {
+    opacity: 1;
+  }
+
+
+  
+  @media screen and (max-width:830px){
+    .projectContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+    }
+
+    .myProjects{
+        background-color: green;
+        width: 90%;
+    }
+  }
+  
+ 
